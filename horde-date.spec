@@ -61,3 +61,21 @@ fi
 %{peardir}/tests/Horde_Date/tests/*.phpt
 %{peardir}/tests/Horde_Date/tests/fixtures/bug2813.ics
 
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-3mdv2011.0
++ Revision: 560542
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-2mdv2010.1
++ Revision: 524826
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased rel version
+
+* Sat Feb 27 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-1mdv2010.1
++ Revision: 512358
+- removed BuildRequires: horde-framework
+- replaced PreRq with Requires(pre)
+- Initial import
+
