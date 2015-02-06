@@ -5,7 +5,7 @@
 
 Name:          horde-date
 Version:       0.1.0
-Release:       %mkrel 3
+Release:       4
 Summary:       Horde Date package
 License:       LGPL
 Group:         Networking/Mail
